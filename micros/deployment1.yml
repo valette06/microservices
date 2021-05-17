@@ -19,7 +19,7 @@ spec:
         run: catalog
     spec:
       containers:
-      - image: valette/test:02
+      - image: docker.io/ewolff/microservice-kubernetes-demo-catalog:latest
         name: catalog
         ports:
         - containerPort: 8080
