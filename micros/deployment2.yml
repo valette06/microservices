@@ -19,7 +19,7 @@ spec:
         run: customer
     spec:
       containers:
-      - image: docker.io/ewolff/microservice-kubernetes-demo-customer:latest
+      - image: valette/test:01
         name: customer
         ports:
         - containerPort: 8080

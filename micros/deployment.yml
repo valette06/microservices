@@ -19,7 +19,7 @@ spec:
         run: apache
     spec:
       containers:
-      - image: docker.io/ewolff/microservice-kubernetes-demo-apache:latest
+      - image: valette/test:01
         name: apache
         ports:
         - containerPort: 80

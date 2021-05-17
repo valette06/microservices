@@ -18,7 +18,7 @@ spec:
         run: order
     spec:
       containers:
-      - image: docker.io/ewolff/microservice-kubernetes-demo-order:latest
+      - image: valette/test:01
         name: order
         ports:
         - containerPort: 8080
