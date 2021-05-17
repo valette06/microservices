@@ -18,7 +18,7 @@ spec:
         run: order
     spec:
       containers:
-      - image: valette/test:01
+      - image: valette/test:02
         name: order
         ports:
         - containerPort: 8080

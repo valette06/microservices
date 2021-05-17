@@ -19,7 +19,7 @@ spec:
         run: apache
     spec:
       containers:
-      - image: valette/test:01
+      - image: valette/test:02
         name: apache
         ports:
         - containerPort: 80

@@ -19,7 +19,7 @@ spec:
         run: customer
     spec:
       containers:
-      - image: valette/test:01
+      - image: valette/test:02
         name: customer
         ports:
         - containerPort: 8080
